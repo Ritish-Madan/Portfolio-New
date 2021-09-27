@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+import pdf from "../../Assets/resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -42,48 +42,53 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Frontend Developer Intern [Flash Tech]"
-              date="July 2021 - September 2021"
+              title="Co-Founder @ Digitian Hub Pvt. Ltd."
+              date="January, 2021 - Present"
               content={[
-                "Worked on the development of an E-commerce website",
-                "Redesigned Wigme.com and created features to enhance the user experience and optimized designs for smartphones.",
-                " Translated designs and wireframes into a highly responsive user interface and reusable components using React.js.",
-                "Used Back-End APIs to display data using the Custom Components, library Components, and Redux.",
-                "Used JIRA as the bug tracking system to track and maintain the history of bugs/issues on an everyday basis.",
+                "Creating the REST API of Authentication and Dashboard Authorization.",
+                "Creating the Dynamic Front-End in ReactJS.",
+                "Handling the Database, and integrating the Front-End with Backend.",
+                "Deploying the Web Application and optimising the production build of Backend.",
+                "Building the strategy for the development operations.",
+                "Leading the development team and managing the project.",
+                "Authorized Dashboard for Both user roles for better engagement, and taking care of User Experience."
               ]}
             />
-            <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
+              title="Technical Intern @ Stupa Sports Analytics"
+              date="May, 2021 - July, 2021"
               content={[
-                "Worked on building front-end UI design using HTML5, CSS3, JavaScript jQuery, and building API routes using Node and express.js.",
+                "Analysed the Table Tennis Dataset.",
+                "Reported Non-Normalized data and insights in the data.",
+                "Cleaning the Dataset and Plotting the Insights",
+                "Code migration from MySQL to Python for better performance.",
+                "Optimised the code performance and delivered optimised approach for the problems.",
+              ]}
+            />
+            <Resumecontent
+              title="Teaching Assistant @ Coding Ninjas"
+              date="August, 2020 - December, 2020"
+              content={[
+                "Mentored the Students Enrolled in Data Science and Machine Learning Course.",
+                "Evaluated the Projects of students like Neural Machine Translation, Driver Distraction Detection, Test Generation and Cifar Dataset prediction. ",
+                "Fixed the Technical Bugs and issues of students enrolled in the course.",
+                "Solving Students doubts improving in debugging skills.",
               ]}
             />
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
+              title="B.Tech - Computer Science Engineering [PIET, Panipat] "
               date="2018 - Present"
               content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
             />
 
-            <h3 className="resume-title">Publications</h3>
+            <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
-              title=""
+              title="Finalists in Toykathon"
               content={[
-                "Article entitled An Overlapping Sliding Window and Combined Feature based Emotion Recognition System for EEG Signals publised in Emerald Publication;10.1108/ACI-05-2021-0130",
-              ]}
-            />
-
-            <h3 className="resume-title">Ranks and Achivements</h3>
-            <Resumecontent
-              title=""
-              content={[
-                `Current rank in Spoj ${spojRank}`,
-                `Current rank in HackerRank  ${hackerrank}`,
-                "Top Performer in Code-Break 1.0",
-                "Participant in Hack-A-Bit 2019",
+                "Reached the Finalists in the National Level Hackathon organized by MHRD, built the Mobile Application for the kids to make the learning more intuitive and fun.",
               ]}
             />
           </Col>
