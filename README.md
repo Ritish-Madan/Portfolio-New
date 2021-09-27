@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="http://ritish.info/" target="_blank">soumyajit.tech</a>
+  <a href="http://ritish.info/" target="_blank">www.ritish.info</a>
 </h2>
 
 <br/>
