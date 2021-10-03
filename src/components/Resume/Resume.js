@@ -9,8 +9,6 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
   const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
-  const [spojRank, upadteSpojRank] = useState(0);
-  const [hackerrank, upadteHackerank] = useState(0);
   const [sem, upadateSem] = useState(0);
   const [cgpa, upadteCgpa] = useState(0);
 
@@ -18,8 +16,6 @@ function Resume() {
     axios
       .get(uri)
       .then((res) => {
-        upadteSpojRank(res.data.message[0].spojRank);
-        upadteHackerank(res.data.message[1].hackerrank);
         upadteCgpa(res.data.message[2].cgpa);
         upadateSem(res.data.message[3].sem);
       })
@@ -41,6 +37,12 @@ function Resume() {
         <Row className="resume">
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
+            <Resumecontent
+              title="Software Intern @ Falkonry"
+              date="October, 2021 - Present"
+              content={[
+              ]}
+            />
             <Resumecontent
               title="Co-Founder @ Digitian Hub Pvt. Ltd."
               date="January, 2021 - Present"
@@ -88,7 +90,7 @@ function Resume() {
             <Resumecontent
               title="Finalists in Toykathon"
               content={[
-                "Reached the Finalists in the National Level Hackathon organized by MHRD, built the Mobile Application for the kids to make the learning more intuitive and fun.",
+                "Finalists in the National Level Hackathon organized by MHRD, built the Mobile Application for the kids to make the learning more intuitive and fun.",
               ]}
             />
           </Col>
