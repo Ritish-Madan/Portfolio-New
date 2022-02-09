@@ -26,7 +26,7 @@ function Projects() {
               title="Digitian Hub"
               description="An Online B2B Marketplace which solves the trust issues between client and Agencies and secures the money and time. All in One Platform to folder the projects and find/get projects.
                             Clients and can raise projects without any hassle, and Digitian Hub would take care of the work by the Agencies as per the proposal and timelines. Agency can find projects."
-              link="www.digitianhub.online"
+              link="https://www.digitianhub.online"
             />
           </Col>
 

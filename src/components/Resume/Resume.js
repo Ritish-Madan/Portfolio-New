@@ -44,8 +44,8 @@ function Resume() {
               ]}
             />
             <Resumecontent
-              title="Co-Founder @ Digitian Hub Pvt. Ltd."
-              date="January, 2021 - Present"
+              title="Software Developer @ Digitian Hub Pvt. Ltd."
+              date="January, 2021 - October, 2021"
               content={[
                 "Creating the REST API of Authentication and Dashboard Authorization.",
                 "Creating the Dynamic Front-End in ReactJS.",
@@ -53,7 +53,9 @@ function Resume() {
                 "Deploying the Web Application and optimising the production build of Backend.",
                 "Building the strategy for the development operations.",
                 "Leading the development team and managing the project.",
-                "Authorized Dashboard for Both user roles for better engagement, and taking care of User Experience."
+                "Authorized Dashboard for Both user roles for better engagement, and taking care of User Experience.",
+                "Added Notifications using sockets to the dashboards",
+                "Added system enabled notifications, throught admin panel"
               ]}
             />
             <Resumecontent
